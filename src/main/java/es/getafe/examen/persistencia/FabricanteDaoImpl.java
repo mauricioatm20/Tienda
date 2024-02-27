@@ -32,6 +32,7 @@ public class FabricanteDaoImpl implements FabricanteDao{
 		em = EMF.getInstance().createEntityManager();
 		
 		Fabricante fab= em.find(Fabricante.class, idFabricante);
+		
 		em.close();
 		
 		return fab;
@@ -47,7 +48,6 @@ public class FabricanteDaoImpl implements FabricanteDao{
 		TypedQuery<Fabricante> q = em.createQuery(jpql, Fabricante.class);
 		q.setParameter("id", idFabricante);
 		
-		Fabricante fab = q.getSingleResult();
 		
 		Fabricante buscado;
 		try {
@@ -61,6 +61,7 @@ public class FabricanteDaoImpl implements FabricanteDao{
 
 	@Override
 	public Set<Fabricante> findOnlyActive() {
+		em = EMF.getInstance().createEntityManager();
 		
 		String jpql = "select f from Fabricante f "
 				+ "join f.productos";
@@ -74,6 +75,7 @@ public class FabricanteDaoImpl implements FabricanteDao{
 
 	@Override
 	public Set<Fabricante> findAll() {
+		em = EMF.getInstance().createEntityManager();
 		String jpql = "select f from Fabricante f ";
 		
 		TypedQuery<Fabricante> q = em.createQuery(jpql, Fabricante.class);
