@@ -7,11 +7,8 @@ import es.getafe.examen.modelo.Producto;
 
 public class TiendaImpl implements Tienda{
 
-	private 
-	
 	@Override
 	public Set<Producto> getProductos() {
-		
 		
 		return null;
 	}
