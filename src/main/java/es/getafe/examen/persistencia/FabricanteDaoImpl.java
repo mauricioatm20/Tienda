@@ -42,7 +42,7 @@ public class FabricanteDaoImpl implements FabricanteDao{
 		em = EMF.getInstance().createEntityManager();
 		
 		String jpql = "select f from Fabricante f "
-				+ "left join fetch f.productos where f.id_fabricante = :id";
+				+ "left join fetch f.productos where f.idFabricante = :id";
 		
 		TypedQuery<Fabricante> q = em.createQuery(jpql, Fabricante.class);
 		q.setParameter("id", idFabricante);
