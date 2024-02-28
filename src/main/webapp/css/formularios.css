@@ -1,0 +1,11 @@
+@import url("general.css");
+
+input, select{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.05em;
+  border-radius: 7px;
+  border: 2px solid #e0e0e0;
+}

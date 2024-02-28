@@ -1,0 +1,39 @@
+@import url("general.css");
+
+#contPrincipal{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+table.datos{
+  border: 2px solid #35858B;
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption{
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 10px;
+  color: #072227;
+}
+
+thead th {
+  background-color: #35858B;
+  color: white;
+  font-size: 1.2em;
+}
+
+th, td{
+  padding: 7px;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #a8a8a8;
+}
+
+tr:hover{
+  background-color: #4FBDBA!important;
+  color: white;  
+}

@@ -1,0 +1,38 @@
+body{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.cabecera{
+  margin: 0px auto;
+  text-align: center;
+}
+
+img#logo{
+  width: 100px;
+  margin-top: 20px;
+}
+
+#contPrincipal{
+  margin: 0px auto;
+  width: 350px;
+  padding: 20px 5px;
+  background-color: #eeeeee;
+  text-align: center;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+button{
+  border: none;
+  color: white;
+  background-color: #35858B;
+  padding: 10px;
+  font-size: 1.05em;
+  margin: 10px auto;
+  width: 150px;
+  border-radius: 7px;
+}
+
+button:hover{
+  background-color: #25757B;
+}

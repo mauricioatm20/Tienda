@@ -1,0 +1,60 @@
+.cabecera, .cuerpo{
+  width: 30%;
+  padding: 15px;
+  margin: 20px auto;
+  font-family: Helvetica;
+}
+
+.cabecera{
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+
+.cuerpo{
+  border: 1px solid #dddddd;
+  box-shadow: 3px 3px 10px lightgray;
+  margin-top: 0 !important;
+}
+
+input, button{
+  display: block;
+  width: 70%;
+  margin: 3px auto 10px;
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+.boton{
+  border: none;
+  background-color: #007bff;
+  color: white;
+  width: 75%;
+  transition: all 0.5s linear;
+}
+
+.boton:hover{
+  box-shadow: 1px 1px 1px 5px #007bff;
+}
+
+.boton:active{
+  box-shadow: none;
+  color: blue;
+}
+
+p.info{
+  font-size:1.1em;
+  text-align: center;
+}
+
+p#error{
+  color: red;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+a#registro{
+  text-decoration: none; 
+  display: block;
+  text-align: center;
+  
+}

@@ -5,9 +5,9 @@
    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
    http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
 
-  <display-name>Archetype Created Web Application</display-name>
+  <display-name>Super Tienda 1.0</display-name>
  <welcome-file-list>
- 	<welcome-file>login.html</welcome-file>
+ 	<welcome-file>home</welcome-file>
  
  </welcome-file-list> 
   

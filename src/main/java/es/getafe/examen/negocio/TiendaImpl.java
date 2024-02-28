@@ -23,7 +23,7 @@ public class TiendaImpl implements Tienda{
 	private FabricanteDao fDao;
 	private ProductoDao pDao;
 	
-	TiendaImpl() {
+	public TiendaImpl() {
 		fDao = new FabricanteDaoImpl();
 		pDao = new ProductoDaoImpl();
 		
